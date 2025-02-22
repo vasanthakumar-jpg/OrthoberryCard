@@ -1,0 +1,77 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+   
+  /* Filter Section */
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f8f8f8;
+  }
+   
+  .filters input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+   
+  /* Toggle View Buttons */
+  .view-toggle {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+   
+  .view-toggle button {
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+  }
+   
+  .view-toggle .active {
+    background-color: #333;
+    color: white;
+  }
+   
+  /* Card Styling */
+  .card {
+    display: flex;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+   
+  .card img {
+    width: 150px;
+    height: 150px;
+  }
+   
+  .card-info {
+    margin-left: 15px;
+  }
+   
+  /* List View */
+  .list-view .card {
+    flex-direction: row;
+  }
+   
+  /* Grid View */
+  .grid-view {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+   
+  .grid-view .card {
+    flex-direction: column;
+    width: calc(50% - 20px);
+  }
+   

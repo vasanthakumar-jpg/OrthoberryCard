@@ -1,0 +1,1 @@
+import{u as e,j as i}from"./index-BZQo3OZc.js";import n from"./Card-CYDFUj2l.js";const c=({data:a})=>{const r=e(),d=s=>{r(`/article/${s}`)};return i.jsx("div",{className:"mt-8 columns-1 sm:columns-2 md:columns-3 gap-4  ",children:a.map(s=>i.jsx("div",{onClick:()=>d(s.id),children:i.jsx(n,{item:s,isGridView:!0})},s.id))})};export{c as default};

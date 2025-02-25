@@ -2,7 +2,7 @@ import { FaUpload, FaNewspaper } from 'react-icons/fa';
 
 const Navbar = () => {
     return (
-        <div className="sidebar">
+        <div className="sidebar hidden md:block">
             <ul className="sidebar-list">
                 <li className="sidebar-item">
                     <FaNewspaper style={{ color: 'gray' }} />

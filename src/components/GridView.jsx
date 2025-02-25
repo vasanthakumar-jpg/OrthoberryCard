@@ -9,7 +9,7 @@ const GridView = ({ data }) => {
   };
 
   return (
-    <div className="mt-8 columns-1 sm:columns-2 md:columns-3 gap-4">
+    <div className="mt-8 columns-1 sm:columns-2 md:columns-3 gap-4  ">
       {data.map((item) => (
         <div key={item.id} onClick={() => handleCardClick(item.id)}>
           <Card item={item} isGridView={true} />

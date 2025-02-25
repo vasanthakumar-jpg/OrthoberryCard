@@ -91,15 +91,14 @@ input {
 
 .sidebar {
   width: max-content;
-  background-color: #f8f9fa;
-  padding: 20px;
-  margin: 80px 0px 0px;
+  padding-top: 60px;
+  /* margin: 95px 0px 0px; */
   display: flex;
   justify-content: center;
-  max-width: 100%;
   text-align: center;
-  height: 100vh;
-  position: fixed;
+  position: absolute;
+  top:0px;
+  left: 0px;
 }
 
 .sidebar-list {
@@ -110,10 +109,11 @@ input {
 .sidebar-item {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 10px; 
   margin: 10px 0px 10px;
   cursor: pointer;
   transition: background-color 0.3s;
+  
 }
 
 .sidebar-item:hover {
@@ -153,17 +153,17 @@ input {
 .read-the-docs {
   color: #888;
 }
-.outer-container{
+/* .outer-container{
   justify-content: center;
   display: flex;
   flex-direction: column;
-}
-  .content-container{
+} */
+  /* .content-container{
   width: 100%;
 }
 .infinite-scroll-component__outerdiv{
   padding: 0px 50px 0px 140px;
-}
+} */
 
 .card {
   width: 400px;
